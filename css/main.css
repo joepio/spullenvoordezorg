@@ -12,7 +12,7 @@
 .title {
   margin: auto;
   color: white;
-  font-family: poetsenOne;
+  font-family: 'Fugaz One', cursive;
   font-size: 3rem;
   max-width: 30rem;
   margin-bottom: 5rem;
@@ -23,7 +23,8 @@
 .body {
   max-width: 30rem;
   padding-left: 2rem;
-  margin: auto
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .title--mild {
@@ -34,9 +35,4 @@
   .title {
     font-size: 2rem;
   }
-}
-
-@font-face {
-  font-family: poetsenOne;
-  src: url("/PoetsenOne-Regular.ttf");
 }
